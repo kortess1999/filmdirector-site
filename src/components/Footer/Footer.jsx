@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Footer.css"
 import { forwardRef } from 'react';
-import { footer_alina } from '../../assets';
+import { andrewSchool } from '../../assets';
 
 const Footer = forwardRef((props, ref) => {
   return (
     <footer id='footer' ref={ref}>
       <div className='wrapper'>
-        <img src={footer_alina} id='footer_alina' alt='footer_alina' />
+        <img src={andrewSchool} id='footer_alina' alt='footer_alina' />
 
         <div className='first_block'>
           <div className='sign'>Andrei Kozhevnkov</div>
