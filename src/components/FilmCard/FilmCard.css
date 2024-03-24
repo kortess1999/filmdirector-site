@@ -1,0 +1,12 @@
+
+#portfolio .video_card .container {
+    background-color: var(--light-primary-color-10, #FFF);
+    margin: 5% 0;
+    padding: 3% 0;
+    padding-left: 3% 0;
+    padding-right: 3% 0;
+}
+
+#portfolio .card_title_text {
+    color: #d66a3cc4;
+}

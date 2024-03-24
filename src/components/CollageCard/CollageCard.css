@@ -1,0 +1,70 @@
+
+#portfolio .video_card .container {
+    background-color: var(--light-primary-color-10, #FFF);
+    margin: 5% 0;
+    padding: 3% 0;
+    padding-left: 3% 0;
+    padding-right: 3% 0;
+}
+
+#portfolio .card_table_row {
+    margin: 0 !important;
+    padding: 10px !important;
+}
+
+#portfolio .card_title_text {
+    color: #d66a3cc4;
+}
+
+#portfolio .card_collage_main_photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#portfolio .card_collage_main_photo_container {
+    width: 50%;
+    height: 70%;
+    border: 1px solid #ccc;
+}
+
+#portfolio .collage_card_text {
+    color: var(--light-primary-color-70, #997D64);
+    text-align: inherit;
+    /* Body/Body 1 Regular */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27.5px */
+    letter-spacing: 0.11px;
+    text-indent: 25px;
+}
+
+#portfolio .collage_card_property_description {
+    color: var(--light-primary-color-70, #997D64);
+    text-align: inherit;
+    /* Body/Body 1 Regular */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 27.5px */
+    letter-spacing: 0.11px;
+}
+
+
+#portfolio .video_card_text {
+    color: var(--light-primary-color-70, #997D64);
+    text-align: inherit;
+    /* Body/Body 1 Regular */
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 27.5px */
+    letter-spacing: 0.11px;
+}
