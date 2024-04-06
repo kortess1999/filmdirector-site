@@ -190,9 +190,17 @@
         max-width: 100%
     }
 
-    #about .wrapper2 .photos_line img {
-        width: 23%
+    .photos_line #andrey_working {
+        width: 70%
     }
+
+    .photos_line #andrew_hollywood {
+        width: 30%
+    }
+
+    /* #about .wrapper2 .photos_line img {
+        width: 50%
+    } */
 
     #about .wrapper2 .first_block img {
         width: 40%;
