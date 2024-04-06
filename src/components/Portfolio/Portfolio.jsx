@@ -18,8 +18,8 @@ const posters = [
   familyTiesPoster
 ];
 
-const Portfolio = forwardRef((props, ref) => {
-
+const Portfolio = ({ film_projects_ref, student_projects_ref }) => {
+  console.log(student_projects_ref);
   function getProjectsCards() {
     return projectsData.map((d) => <LittleProjectCard filmData={d} />);
   }
@@ -48,7 +48,7 @@ const Portfolio = forwardRef((props, ref) => {
   };
 
   return (
-    <section id='portfolio' ref={ref}>
+    <section id='portfolio' ref={film_projects_ref}>
       <div className='wrapper'>
         <div className='wrapper2'>
 
@@ -79,9 +79,9 @@ const Portfolio = forwardRef((props, ref) => {
               </div>
             </div>
 
-            <div className='my_header'>
+            <section id='student_projects' className='my_header' ref={student_projects_ref}>
               <h2>Student Projects</h2>
-            </div>
+            </section>
           </div>
           {getFilmCards()}
           {getProjectsCards()}
@@ -89,8 +89,7 @@ const Portfolio = forwardRef((props, ref) => {
       </div >
       {/* <div><VectorSvg /> <PersonSvg/></div> */}
     </section >
-
   )
-});
+};
 
 export default Portfolio
