@@ -37,7 +37,7 @@ const About = ({ about_ref, request_ref }) => {
             </div>
           </div> */}
           <div className='photos_line'>
-            <img src={andrewHollywood} id='andrew_hollywood' alt='andrew_hollywood' />
+            {/* <img src={andrewHollywood} id='andrew_hollywood' alt='andrew_hollywood' /> */}
             <img src={andrewWorking} id='andrey_working' alt='andrey_working' />
             {/* <img src={andrewSchool} id='portrait_alina3' alt='portrait_alina3' /> */}
             {/* <img src={portrait_alina4} id='portrait_alina4' alt='portrait_alina4' /> */}
