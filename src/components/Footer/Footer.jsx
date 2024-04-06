@@ -41,7 +41,7 @@ const Footer = forwardRef((props, ref) => {
               </a>
             </div>
           </div>
-          <p>© 2023 Andrei Kozhevnkov. All rights reserved.</p>
+          <p>© 2024 Andrei Kozhevnkov. All rights reserved.</p>
 
         </div>
         <div className='navigation_menu'>
