@@ -12,6 +12,7 @@ import andrewThink from "./Andrew_thinking.jpg";
 
 import familyTiesPoster from "./FamilyTiesPoster.jpg";
 import header_photo from "./Header.jpg";
+import footer_photo from "./footer.jpg"
 
 export {
     footer_alina,
@@ -25,4 +26,5 @@ export {
     andrewSuit,
     andrewThink,
     familyTiesPoster,
+    footer_photo,
 };
