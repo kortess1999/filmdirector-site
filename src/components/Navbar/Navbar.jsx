@@ -16,11 +16,12 @@ export const Navbar = ({ about_ref, film_projects_ref, about_me_ref, contact_ref
 
   return (
     <>
-      <div className="navbar" >
+      <div id='home' className="navbar" >
         <div className="navbar-2">
           {/* <div className="text-wrapper-2">Home</div> */}
           <div onClick={() => scrollToSection(about_me_ref)} className="text-wrapper-2">About Me</div>
           <div onClick={() => scrollToSection(film_projects_ref)} className="text-wrapper-2">Film Projects</div>
+          <a className="text-wrapper-2" href="#student_projects">Student Projects</a>
           {/* <div onClick={() => scrollToSection(student_projects_ref)} className="text-wrapper-2">Student Projects</div> */}
           <div onClick={() => scrollToSection(about_ref)} className="text-wrapper-2">Editing & Photoshop</div>
           <div onClick={() => scrollToSection(contact_ref)} className="text-wrapper-2">Contact</div>
@@ -52,6 +53,11 @@ export const Navbar = ({ about_ref, film_projects_ref, about_me_ref, contact_ref
           <li>
             <a href="#portfolio" onClick={() => setIsActive(false)}>
               Film Projects
+            </a>
+          </li>
+          <li>
+            <a href="#student_projects" onClick={() => setIsActive(false)}>
+              Student Projects
             </a>
           </li>
           <li>
